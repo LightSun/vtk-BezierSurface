@@ -25,6 +25,10 @@
 #include "vtkBezierSurfaceWidget.h"
 #include "vtkBezierSurfaceSource.h"
 
+#include <vtkAutoInit.h>
+VTK_MODULE_INIT(vtkRenderingOpenGL2);
+VTK_MODULE_INIT(vtkInteractionStyle);
+
 const int controlPointsX=4;
 const int controlPointsY=4;
 

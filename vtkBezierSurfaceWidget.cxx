@@ -42,7 +42,7 @@
 
 typedef unsigned int uint;
 
-vtkCxxRevisionMacro(vtkBezierSurfaceWidget, "$Revision: 1.53 $");
+//vtkCxxRevisionMacro(vtkBezierSurfaceWidget, "$Revision: 1.53 $");
 vtkStandardNewMacro(vtkBezierSurfaceWidget);
 
 struct HandleInfo
@@ -285,7 +285,7 @@ void vtkBezierSurfaceWidget::SetProp3D(vtkProp3D*)
   vtkOutputWindow::GetInstance()->DisplayWarningText("SetProp3D() is disabled. Use SetBezierSource() instead");
 }
 
-void vtkBezierSurfaceWidget::SetInput(vtkDataSet* dataSet)
+void vtkBezierSurfaceWidget::SetInputData(vtkDataSet* dataSet)
 {
   vtkBezierSurfaceSource* bss = reinterpret_cast<vtkBezierSurfaceSource*>(dataSet);
   if(!bss)
