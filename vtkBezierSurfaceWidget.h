@@ -60,7 +60,7 @@ public:
   // Implementing the vtk3DWidget interface.
   void SetInteractor(vtkRenderWindowInteractor* iren);
   void SetProp3D(vtkProp3D* prop);
-  void SetInput(vtkDataSet* dataSet);
+  void SetInputData(vtkDataSet* dataSet);
   void SetEnabled(int val);
   void PlaceWidget(double bounds[6]); // This is not implemented, but required by the vtk3DWidget interface
   void SetPlaceFactor(double val);
