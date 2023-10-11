@@ -18,3 +18,6 @@ the use of vtkBezierSurfaceSource without any vtkBezierSourceWidget.
 BezierSourceWidget (Example_Source_Widget.cxx): Creates a transformed Bezier surface based on an arbitrary plane.
 It also creates the correspondent vtkBezierSurfaceWidget wich allows the interactive
 modification of the Bezier surface by moving the control points.
+
+## FAQ
+- [bezier curve/surface c](https://paulbourke.net/geometry/bezier/)
